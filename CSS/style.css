@@ -19,7 +19,7 @@
     display: grid;
     /* height: 100vh; */
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    grid-template-rows: 650px 80px 580px 15% 10% 10% 10% 10% 150px;
+    grid-template-rows: 650px 80px 550px 15% 10% 10% 10% 10% 150px;
 }
 
 body {
@@ -286,7 +286,18 @@ body {
 
 /*        ARTICLE FRAME */
 
+.border h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 2% 0 0 2%;
+    color: #EEDD67;
+    line-height: 35px;
+}
 
+.border i {
+    margin-right: 10px;
+}
 
 .article h2 {
     font-size: 30px;
